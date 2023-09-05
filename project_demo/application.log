@@ -1,0 +1,28 @@
+2023-09-05T09:01:17.502+05:30  INFO 4040 --- [restartedMain] c.project_demo.ProjectDemoApplication    : Starting ProjectDemoApplication using Java 17.0.7 with PID 4040 (D:\Spring_tools_software\project_demo\target\classes started by Vivin in D:\Spring_tools_software\project_demo)
+2023-09-05T09:01:17.509+05:30  INFO 4040 --- [restartedMain] c.project_demo.ProjectDemoApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-09-05T09:01:17.605+05:30  INFO 4040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-05T09:01:17.606+05:30  INFO 4040 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-05T09:01:18.677+05:30  INFO 4040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-05T09:01:18.774+05:30  INFO 4040 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2023-09-05T09:01:19.819+05:30  INFO 4040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2023-09-05T09:01:19.843+05:30  INFO 4040 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-05T09:01:19.843+05:30  INFO 4040 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-09-05T09:01:19.937+05:30  INFO 4040 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-05T09:01:19.938+05:30  INFO 4040 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2330 ms
+2023-09-05T09:01:20.195+05:30  INFO 4040 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-05T09:01:20.276+05:30  INFO 4040 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.6.Final
+2023-09-05T09:01:20.279+05:30  INFO 4040 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-09-05T09:01:20.491+05:30  INFO 4040 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-05T09:01:20.757+05:30  INFO 4040 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-05T09:01:20.780+05:30  INFO 4040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-05T09:01:21.213+05:30  INFO 4040 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79cf76
+2023-09-05T09:01:21.216+05:30  INFO 4040 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-05T09:01:21.280+05:30  WARN 4040 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-09-05T09:01:21.573+05:30  INFO 4040 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-09-05T09:01:22.270+05:30  INFO 4040 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-05T09:01:22.408+05:30  INFO 4040 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-05T09:01:22.860+05:30  INFO 4040 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-09-05T09:01:23.355+05:30  WARN 4040 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-05T09:01:24.236+05:30  INFO 4040 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-05T09:01:24.296+05:30  INFO 4040 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2023-09-05T09:01:24.309+05:30  INFO 4040 --- [restartedMain] c.project_demo.ProjectDemoApplication    : Started ProjectDemoApplication in 7.406 seconds (process running for 8.404)
